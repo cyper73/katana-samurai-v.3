@@ -1,0 +1,1 @@
+agente katana:esamina scansioni pdf ,estrapola metadati dpi e risoluzioni ,individua l'immagine scannerizzata per pagina,la ritaglia e ridimensiona per un jpg singolo  e la trasforma ,ricerca i linguaggi libreria in autonomia per effettuare queste operazioni .

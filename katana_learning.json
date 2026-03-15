@@ -1,0 +1,12 @@
+{
+  "adaptive_params": {
+    "variance_threshold": 37.94377365625,
+    "entropy_threshold": 1.2,
+    "non_white_threshold": 0.02,
+    "edge_threshold": 0.001243272081806352,
+    "white_threshold": 220,
+    "margin_adjustment": 0.5996953600000003
+  },
+  "feedback_history": [],
+  "last_updated": "2026-03-15T12:18:30.486449"
+}

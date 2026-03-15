@@ -1,0 +1,930 @@
+{
+  "samurai_profiles": {
+    "documenti_legali": {
+      "name": "Samurai Legale",
+      "description": "Specializzato in documenti legali, contratti, atti notarili",
+      "adaptive_params": {
+        "variance_threshold": 25,
+        "entropy_threshold": 0.8,
+        "non_white_threshold": 0.015,
+        "edge_threshold": 0.001,
+        "white_threshold": 230,
+        "margin_adjustment": 1.2
+      },
+      "feedback_history": [
+        {
+          "timestamp": "2025-09-14T00:35:14.651349",
+          "feedback": "perfect",
+          "params_before": {
+            "variance_threshold": 25,
+            "entropy_threshold": 0.8,
+            "non_white_threshold": 0.015,
+            "edge_threshold": 0.001,
+            "white_threshold": 230,
+            "margin_adjustment": 1.2
+          }
+        }
+      ],
+      "document_patterns": [
+        "contratto",
+        "atto",
+        "sentenza",
+        "decreto",
+        "ordinanza",
+        "citazione",
+        "ricorso"
+      ],
+      "performance_stats": {
+        "total_processed": 1,
+        "perfect_feedback": 1,
+        "good_feedback": 0,
+        "bad_feedback": 0,
+        "accuracy_rate": 1.0
+      },
+      "last_updated": "2025-09-14T00:35:14.651349"
+    },
+    "documenti_tecnici": {
+      "name": "Samurai Tecnico",
+      "description": "Specializzato in manuali tecnici, schemi, diagrammi",
+      "adaptive_params": {
+        "variance_threshold": 35,
+        "entropy_threshold": 1.2,
+        "non_white_threshold": 0.025,
+        "edge_threshold": 0.0015,
+        "white_threshold": 210,
+        "margin_adjustment": 0.8
+      },
+      "feedback_history": [],
+      "document_patterns": [
+        "manuale",
+        "schema",
+        "diagramma",
+        "progetto",
+        "specifica",
+        "blueprint",
+        "tecnico"
+      ],
+      "performance_stats": {
+        "total_processed": 0,
+        "perfect_feedback": 0,
+        "good_feedback": 0,
+        "bad_feedback": 0,
+        "accuracy_rate": 0.0
+      },
+      "last_updated": null
+    },
+    "documenti_medici": {
+      "name": "Samurai Medico",
+      "description": "Specializzato in referti medici, radiografie, analisi",
+      "adaptive_params": {
+        "variance_threshold": 20,
+        "entropy_threshold": 0.9,
+        "non_white_threshold": 0.01,
+        "edge_threshold": 0.0008,
+        "white_threshold": 240,
+        "margin_adjustment": 1.5
+      },
+      "feedback_history": [],
+      "document_patterns": [
+        "referto",
+        "analisi",
+        "radiografia",
+        "ecografia",
+        "risonanza",
+        "tac",
+        "medico"
+      ],
+      "performance_stats": {
+        "total_processed": 0,
+        "perfect_feedback": 0,
+        "good_feedback": 0,
+        "bad_feedback": 0,
+        "accuracy_rate": 0.0
+      },
+      "last_updated": null
+    },
+    "documenti_artistici": {
+      "name": "Samurai Artistico",
+      "description": "Specializzato in opere d'arte, disegni, fotografie artistiche",
+      "adaptive_params": {
+        "variance_threshold": 36.0,
+        "entropy_threshold": 1.35,
+        "non_white_threshold": 0.03,
+        "edge_threshold": 0.002,
+        "white_threshold": 200,
+        "margin_adjustment": 0.72
+      },
+      "feedback_history": [
+        {
+          "timestamp": "2025-09-14T01:51:12.803075",
+          "feedback": "perfect",
+          "params_before": {
+            "variance_threshold": 40,
+            "entropy_threshold": 1.5,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.6
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:05:23.490097",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:07:51.964346",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:08:51.932836",
+          "feedback": "insufficient_zoom",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:10:05.383923",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:11:02.744323",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:11:56.475051",
+          "feedback": "insufficient_zoom",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:13:07.278672",
+          "feedback": "insufficient_zoom",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:14:45.144408",
+          "feedback": "light_cropping",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:16:04.166762",
+          "feedback": "insufficient_zoom",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:17:41.710740",
+          "feedback": "insufficient_zoom",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        },
+        {
+          "timestamp": "2025-09-14T02:35:20.134185",
+          "feedback": "insufficient_zoom",
+          "params_before": {
+            "variance_threshold": 36.0,
+            "entropy_threshold": 1.35,
+            "non_white_threshold": 0.03,
+            "edge_threshold": 0.002,
+            "white_threshold": 200,
+            "margin_adjustment": 0.72
+          }
+        }
+      ],
+      "document_patterns": [
+        "arte",
+        "disegno",
+        "pittura",
+        "fotografia",
+        "scultura",
+        "opera",
+        "artistico"
+      ],
+      "performance_stats": {
+        "total_processed": 12,
+        "perfect_feedback": 1,
+        "good_feedback": 1,
+        "bad_feedback": 10,
+        "accuracy_rate": 0.167
+      },
+      "last_updated": "2025-09-14T02:35:20.134185"
+    },
+    "documenti_vari": {
+      "name": "Samurai Generale",
+      "description": "Profilo generale per documenti non categorizzati",
+      "adaptive_params": {
+        "variance_threshold": 23.01277704660001,
+        "entropy_threshold": 0.8,
+        "non_white_threshold": 0.02,
+        "edge_threshold": 0.001243272081806352,
+        "white_threshold": 220,
+        "margin_adjustment": 1.4860167413759997
+      },
+      "feedback_history": [
+        {
+          "timestamp": "2026-03-15T12:51:32.219037",
+          "feedback": "insufficient_zoom",
+          "params_before": {
+            "variance_threshold": 53.46000000000001,
+            "entropy_threshold": 1.7820000000000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.3456
+          }
+        },
+        {
+          "timestamp": "2026-03-15T12:51:38.178072",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 53.46000000000001,
+            "entropy_threshold": 1.7820000000000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.3456
+          }
+        },
+        {
+          "timestamp": "2026-03-15T12:52:00.355674",
+          "feedback": "excessive_zoom",
+          "params_before": {
+            "variance_threshold": 53.46000000000001,
+            "entropy_threshold": 1.7820000000000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.3456
+          }
+        },
+        {
+          "timestamp": "2026-03-15T12:52:50.206266",
+          "feedback": "excessive_zoom",
+          "params_before": {
+            "variance_threshold": 53.46000000000001,
+            "entropy_threshold": 1.7820000000000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.3456
+          }
+        },
+        {
+          "timestamp": "2026-03-15T12:53:13.845157",
+          "feedback": "excessive_zoom",
+          "params_before": {
+            "variance_threshold": 53.46000000000001,
+            "entropy_threshold": 1.7820000000000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.3456
+          }
+        },
+        {
+          "timestamp": "2026-03-15T12:53:41.508018",
+          "feedback": "excessive_zoom",
+          "params_before": {
+            "variance_threshold": 53.46000000000001,
+            "entropy_threshold": 1.7820000000000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.3456
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:27:06.791184",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 48.11400000000001,
+            "entropy_threshold": 1.6038000000000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.41472000000000003
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:27:35.412029",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 43.30260000000001,
+            "entropy_threshold": 1.4434200000000004,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.497664
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:28:06.335359",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 38.97234000000001,
+            "entropy_threshold": 1.2990780000000004,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.5971968
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:28:25.658427",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 35.07510600000001,
+            "entropy_threshold": 1.1691702000000004,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.71663616
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:28:38.302837",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 31.567595400000013,
+            "entropy_threshold": 1.0522531800000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 0.8599633919999999
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:29:10.734233",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:29:41.484718",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:30:17.776335",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:30:47.579185",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:31:13.284858",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:31:32.264998",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T13:32:14.162607",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:01:39.444104",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:02:11.922696",
+          "feedback": "perfect",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:02:15.157862",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:02:44.886527",
+          "feedback": "perfect",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:02:47.308425",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:03:24.998714",
+          "feedback": "excessive_zoom",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:03:28.191766",
+          "feedback": "excessive_zoom",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:04:06.059586",
+          "feedback": "excessive_zoom",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:05:32.530093",
+          "feedback": "excessive_zoom",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:41:25.413512",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:42:23.375493",
+          "feedback": "insufficient_zoom",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:42:26.807607",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:43:11.345428",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:44:39.827551",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:45:25.014862",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:46:12.960104",
+          "feedback": "perfect",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:46:17.737550",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:47:06.252927",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:47:47.546619",
+          "feedback": "perfect",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T14:47:51.027038",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T16:33:10.246143",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:17:04.385134",
+          "feedback": "perfect",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:17:37.345849",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:18:53.968752",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:20:27.231876",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 28.410835860000013,
+            "entropy_threshold": 0.9470278620000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.0319560704
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:21:09.339146",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 25.569752274000013,
+            "entropy_threshold": 0.8523250758000003,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.2383472844799999
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:21:13.239377",
+          "feedback": "excessive_cropping",
+          "params_before": {
+            "variance_threshold": 23.01277704660001,
+            "entropy_threshold": 0.8,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.4860167413759997
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:21:51.967985",
+          "feedback": "perfect",
+          "params_before": {
+            "variance_threshold": 23.01277704660001,
+            "entropy_threshold": 0.8,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.4860167413759997
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:21:54.246500",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 23.01277704660001,
+            "entropy_threshold": 0.8,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.4860167413759997
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:22:32.170280",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 23.01277704660001,
+            "entropy_threshold": 0.8,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.4860167413759997
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:23:24.804406",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 23.01277704660001,
+            "entropy_threshold": 0.8,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.4860167413759997
+          }
+        },
+        {
+          "timestamp": "2026-03-15T17:24:33.618134",
+          "feedback": "manual_correction",
+          "params_before": {
+            "variance_threshold": 23.01277704660001,
+            "entropy_threshold": 0.8,
+            "non_white_threshold": 0.02,
+            "edge_threshold": 0.001243272081806352,
+            "white_threshold": 220,
+            "margin_adjustment": 1.4860167413759997
+          }
+        }
+      ],
+      "document_patterns": [
+        "documento",
+        "file",
+        "carta",
+        "foglio",
+        "testo",
+        "generale"
+      ],
+      "performance_stats": {
+        "total_processed": 84,
+        "perfect_feedback": 7,
+        "good_feedback": 6,
+        "bad_feedback": 71,
+        "accuracy_rate": 0.155
+      },
+      "last_updated": "2026-03-15T17:24:33.618134"
+    }
+  },
+  "active_profile": "documenti_vari",
+  "auto_detection": true,
+  "system_version": "3.0",
+  "created_date": "2025-09-14",
+  "migration_from_v2": {
+    "original_learning_data": {
+      "adaptive_params": {
+        "variance_threshold": 30,
+        "entropy_threshold": 1.0,
+        "non_white_threshold": 0.02,
+        "edge_threshold": 0.001243272081806352,
+        "white_threshold": 220,
+        "margin_adjustment": 1.0
+      },
+      "feedback_count": 1
+    },
+    "migrated_to_profile": "documenti_vari"
+  }
+}

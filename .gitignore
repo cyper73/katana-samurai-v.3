@@ -1,0 +1,25 @@
+# PDF Files
+*.pdf
+
+# Test Files
+test_*.py
+check_quality.bat
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output Directories
+output_images/
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+venv/
+env/

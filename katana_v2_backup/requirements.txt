@@ -1,0 +1,25 @@
+# Agente Katana - Dipendenze per l'elaborazione PDF
+
+# Elaborazione PDF
+PyMuPDF>=1.23.0
+
+# Elaborazione immagini
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# OCR (opzionale per riconoscimento testo)
+pytesseract>=0.3.10
+
+# Per installare tutte le dipendenze:
+# pip install -r requirements.txt
+
+# Note di installazione:
+# - Per pytesseract è necessario installare anche Tesseract OCR:
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#   Linux: sudo apt-get install tesseract-ocr
+#   macOS: brew install tesseract
+
+# Dipendenze di sistema consigliate:
+# - Tesseract OCR per il riconoscimento del testo
+# - ImageMagick per elaborazioni avanzate delle immagini (opzionale)

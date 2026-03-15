@@ -1,0 +1,33 @@
+{
+  "adaptive_params": {
+    "variance_threshold": 30,
+    "entropy_threshold": 1.0,
+    "non_white_threshold": 0.02,
+    "edge_threshold": 0.001243272081806352,
+    "white_threshold": 220,
+    "margin_adjustment": 1.0
+  },
+  "feedback_history": [
+    {
+      "timestamp": "2025-09-14T00:18:45.830454",
+      "pdf_name": "documentoaous11-08-2025-080123",
+      "page_num": 8,
+      "feedback": "perfect",
+      "bounds": [
+        2926,
+        6611,
+        8737,
+        14485
+      ],
+      "current_params": {
+        "variance_threshold": 30,
+        "entropy_threshold": 1.0,
+        "non_white_threshold": 0.02,
+        "edge_threshold": 0.001243272081806352,
+        "white_threshold": 220,
+        "margin_adjustment": 1.0
+      }
+    }
+  ],
+  "last_updated": "2025-09-14T00:18:45.832472"
+}
